@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendari</title>
+    <link rel="stylesheet" href="calendari.css">
+    <script src="calendari.js"></script>
+</head>
+<body>
+    <div class="formulariDiv">
+        <form>
+            <table class="taulaForm">
+                <tr >
+                    <td><input class="input" type="text" id="dia" name="idia" placeholder="dia"></td>
+                    <td><input class="input" type="text" id="mes" name="imes" placeholder="mes"></td>
+                    <td><input class="input" type="text" id="any" name="iany" placeholder="any"></td>
+                </tr>
+                <tr class="boto">
+                    <td><input type="button" onclick="mesMenys();" value="<-MES"></td>
+                    <td><input type="button" onclick="entraDades();" value="Busca"></td>
+                    <td><input type="button" onclick="mesMes();" value="MES->"></td>
+                </tr>
+            </table>
+          </form>
+    </div>
+    <div class="calendari"></div>
+    
+</body>
+</html>
